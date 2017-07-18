@@ -443,7 +443,8 @@ namespace {
         }
         else
         {
-            NSLog(@"Successfully activated data set.");
+            NSLog(@"Successfully activated data set, trackables: %d", theDataSet->getNumTrackables())
+            ;
             _dataSet = theDataSet;
             success = YES;
         }

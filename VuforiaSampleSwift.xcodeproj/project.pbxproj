@@ -32,10 +32,10 @@
 		92AA11851D27B96300E56CBE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92AA11841D27B96300E56CBE /* Localizable.strings */; };
 		92DCE9BB1E37CEA400E0DE1C /* IT.png in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B51E37CEA400E0DE1C /* IT.png */; };
 		92DCE9BC1E37CEA400E0DE1C /* IT_about.html in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B61E37CEA400E0DE1C /* IT_about.html */; };
-		92DCE9BD1E37CEA400E0DE1C /* StonesAndChips.dat in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B71E37CEA400E0DE1C /* StonesAndChips.dat */; };
-		92DCE9BE1E37CEA400E0DE1C /* StonesAndChips.xml in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B81E37CEA400E0DE1C /* StonesAndChips.xml */; };
-		92DCE9BF1E37CEA400E0DE1C /* Tarmac.dat in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B91E37CEA400E0DE1C /* Tarmac.dat */; };
-		92DCE9C01E37CEA400E0DE1C /* Tarmac.xml in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9BA1E37CEA400E0DE1C /* Tarmac.xml */; };
+		B30631601F18906400CD7BC8 /* StonesAndChips.dat in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B71E37CEA400E0DE1C /* StonesAndChips.dat */; };
+		B30631611F18906400CD7BC8 /* StonesAndChips.xml in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B81E37CEA400E0DE1C /* StonesAndChips.xml */; };
+		B30631621F18906400CD7BC8 /* Tarmac.dat in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9B91E37CEA400E0DE1C /* Tarmac.dat */; };
+		B30631631F18906400CD7BC8 /* Tarmac.xml in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE9BA1E37CEA400E0DE1C /* Tarmac.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -455,7 +455,7 @@
 				TargetAttributes = {
 					92AA11041D27A5EB00E56CBE = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 7A4SW8L4U6;
+						DevelopmentTeam = JQ3L4B7K39;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -484,16 +484,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30631601F18906400CD7BC8 /* StonesAndChips.dat in Resources */,
+				B30631611F18906400CD7BC8 /* StonesAndChips.xml in Resources */,
+				B30631621F18906400CD7BC8 /* Tarmac.dat in Resources */,
+				B30631631F18906400CD7BC8 /* Tarmac.xml in Resources */,
 				928C34231EAF608600BC07DE /* license_3rdpartynotice.txt in Resources */,
-				92DCE9BF1E37CEA400E0DE1C /* Tarmac.dat in Resources */,
 				92AA11131D27A5EB00E56CBE /* LaunchScreen.storyboard in Resources */,
 				92AA11101D27A5EB00E56CBE /* Assets.xcassets in Resources */,
 				928C34251EAF608600BC07DE /* readme.txt in Resources */,
-				92DCE9BD1E37CEA400E0DE1C /* StonesAndChips.dat in Resources */,
 				92AA11851D27B96300E56CBE /* Localizable.strings in Resources */,
 				928C34241EAF608600BC07DE /* readme.txt in Resources */,
-				92DCE9C01E37CEA400E0DE1C /* Tarmac.xml in Resources */,
-				92DCE9BE1E37CEA400E0DE1C /* StonesAndChips.xml in Resources */,
 				92DCE9BB1E37CEA400E0DE1C /* IT.png in Resources */,
 				92AA110E1D27A5EB00E56CBE /* Main.storyboard in Resources */,
 				92DCE9BC1E37CEA400E0DE1C /* IT_about.html in Resources */,
@@ -634,7 +634,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7A4SW8L4U6;
+				DEVELOPMENT_TEAM = JQ3L4B7K39;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/VuforiaSampleSwift/vuforia-sdk-ios-6-2-9/build/include\"";
 				INFOPLIST_FILE = VuforiaSampleSwift/Info.plist;
@@ -643,7 +643,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VuforiaSampleSwift/vuforia-sdk-ios-6-2-9/build/lib/arm",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sputnik-apps.VuforiaSampleSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsmanji.apps.VuforiaSampleSwift;
 				PRODUCT_NAME = VuforiaSampleSwift;
 				SWIFT_OBJC_BRIDGING_HEADER = "VuforiaSampleSwift/VuforiaSampleSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -658,7 +658,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7A4SW8L4U6;
+				DEVELOPMENT_TEAM = JQ3L4B7K39;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/VuforiaSampleSwift/vuforia-sdk-ios-6-2-9/build/include\"";
 				INFOPLIST_FILE = VuforiaSampleSwift/Info.plist;
@@ -667,7 +667,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VuforiaSampleSwift/vuforia-sdk-ios-6-2-9/build/lib/arm",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sputnik-apps.VuforiaSampleSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsmanji.apps.VuforiaSampleSwift;
 				PRODUCT_NAME = VuforiaSampleSwift;
 				SWIFT_OBJC_BRIDGING_HEADER = "VuforiaSampleSwift/VuforiaSampleSwift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
