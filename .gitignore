@@ -18,5 +18,4 @@ xcuserdata
 DerivedData
 *.xcuserstate
 
-vuforia-sdk-ios-5-5-9/
-ImageTargets/
+vuforia-sdk-ios*/
